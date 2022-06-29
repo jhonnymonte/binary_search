@@ -1,7 +1,9 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    val binarySearch = BinarySearch()
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    val intList = arrayListOf(3,5,6,7,9,13,14,24,32,45,54,57)
+
+    println(binarySearch.searchInt(list= intList, target = 11))
+
 }
+
