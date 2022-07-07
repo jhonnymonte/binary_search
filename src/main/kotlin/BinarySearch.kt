@@ -1,4 +1,4 @@
-class BinarySearch {
+class BinarySearch(listOf: List<Int>) {
 
     fun searchInt(list: List<Int>, target: Int): Any {
 

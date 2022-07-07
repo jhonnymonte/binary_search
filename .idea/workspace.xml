@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60defeb-053d-4cfa-8a81-877b819039d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BinarySearch.kt" afterDir="false" />
+    <list default="true" id="f60defeb-053d-4cfa-8a81-877b819039d3" name="Changes" comment="binary search class created with searchInt function">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RandomNumbers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/BinarySearchTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/binary_search.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BinarySearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BinarySearch.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,21 +40,86 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BinarySearchTest.testEqualsFailsWithValueIsLessThanTheList">
+    <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="binary_search" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest.finds value in array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="binary_search" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTest" />
+      <option name="METHOD_NAME" value="finds value in array" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest.testEqualsFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="binary_search" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTest" />
+      <option name="METHOD_NAME" value="testEqualsFails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest.testEqualsFailsWithValueIsLessThanTheList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="binary_search" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTest" />
+      <option name="METHOD_NAME" value="testEqualsFailsWithValueIsLessThanTheList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest.valueLargerThanArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="binary_search" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTest" />
+      <option name="METHOD_NAME" value="valueLargerThanArray" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.BinarySearchTest.testEqualsFailsWithValueIsLessThanTheList" />
+        <item itemvalue="JUnit.BinarySearchTest" />
+        <item itemvalue="JUnit.BinarySearchTest.testEqualsFails" />
+        <item itemvalue="JUnit.BinarySearchTest.valueLargerThanArray" />
+        <item itemvalue="JUnit.BinarySearchTest.finds value in array" />
       </list>
     </recent_temporary>
   </component>
@@ -62,6 +132,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656539229329</updated>
     </task>
+    <task id="LOCAL-00001" summary="binary search class created with searchInt function">
+      <created>1656540007643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656540007643</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +152,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="binary search class created with searchInt function" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary search class created with searchInt function" />
   </component>
 </project>
